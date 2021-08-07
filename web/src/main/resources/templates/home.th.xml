@@ -1,0 +1,12 @@
+<thlogic xmlns:th="http://www.thymeleaf.org">
+    <attr sel="#head"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#play"
+          th:href="@{play}" th:text="Play"/>
+    <attr sel="#footer"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+
+
+
+
+</thlogic>

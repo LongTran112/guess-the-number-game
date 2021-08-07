@@ -1,0 +1,21 @@
+<thlogic xmlns:th="http://www.thymeleaf.org">
+    <attr sel="#head"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <!--/*@thymesVar id="resultMessage" type=""*/-->
+    <attr sel="#result-message"
+          th:text="${resultMessage}"/>
+    <attr sel="#restart-play"
+          th:href="@{restartPlay}" />
+    <attr sel="#restart-home"
+          th:href="@{restartHome}"/>
+    <attr sel="#footer"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+
+
+
+
+
+
+
+
+</thlogic>

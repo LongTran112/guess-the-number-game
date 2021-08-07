@@ -1,0 +1,10 @@
+com\company\controller\GameController.class
+com\company\service\GameServiceImpl.class
+com\company\util\ViewNames.class
+com\company\util\thymeleaf\DecoupledLogicSetUp.class
+com\company\interceptor\RequestInterceptor.class
+com\company\util\AttributeNames.class
+com\company\service\GameService.class
+com\company\util\GameMappings.class
+com\company\WebMain.class
+com\company\config\WebConfig.class

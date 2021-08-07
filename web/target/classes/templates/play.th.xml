@@ -1,0 +1,16 @@
+<thlogic xmlns:th="http://www.thymeleaf.org">
+    <attr sel="#headId"
+            th:replace="~{fragments/head :: headFragment}"/>
+    <!--/*@thymesVar id="mainMessage" type=""*/-->
+    <attr sel="#game-title" th:text="#{game.title}"/>
+    <attr sel="#main-message"
+          th:text="${mainMessage}"/>
+    <!--/*@thymesVar id="resultMessage" type=""*/-->
+    <attr sel="#result-message"
+          th:text="${resultMessage}"/>
+    <attr sel="#game-form"
+          th:action="play"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+
+</thlogic>
